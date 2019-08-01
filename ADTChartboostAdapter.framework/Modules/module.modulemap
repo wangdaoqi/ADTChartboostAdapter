@@ -1,0 +1,6 @@
+framework module ADTChartboostAdapter {
+  umbrella header "ADTChartboostAdapter.h"
+
+  export *
+  module * { export * }
+}
