@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Chartboost Adapter for AdTiming"
   s.description  = "Chartboost adapter allows publishers to mediate chartboost interstitial and video ads in AdTiming SDK"
   s.homepage     = "https://www.adtiming.com/"
-  s.authors      = '{ "AdTiming" => "support@adtiming.com" }'
+  s.authors      = { "AdTiming" => "support@adtiming.com" }
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.source       = { :git => "https://github.com/AdTiming/ADTChartboostAdapter.git", :tag => "#{s.version}" }
   s.requires_arc = true
