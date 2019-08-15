@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'ADTChartboostAdapter.framework'
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  s.ios.dependency 'ChartboostSDK', '~>7.2.0'
 end
